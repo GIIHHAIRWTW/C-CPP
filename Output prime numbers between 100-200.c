@@ -7,7 +7,7 @@ int main()
 	for (i = 101; i <= 200; i+=2)
 	{
 		int j = 0;
-		for (j = 2; j <= i/2; j++)     //i/2�ɻ�Ϊsqrt(i)
+		for (j = 2; j <= i/2; j++)     //i/2可换为sqrt(i)
 		{
 			if (i % j == 0)
 				break;
