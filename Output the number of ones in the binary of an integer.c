@@ -10,6 +10,6 @@ int main()
 		num = num & (num - 1);
 		count++;
 	}
-	printf("¶þ½øÖÆÖÐµÄ1µÄ¸öÊý=%d\n", count);
+	printf("äºŒè¿›åˆ¶ä¸­çš„1çš„ä¸ªæ•°=%d\n", count);
 	return 0;
 }
