@@ -7,15 +7,15 @@
 #include<stdlib.h>
 #include<time.h>
 
-//ÉùÃ÷
+//î˜ì¸ 
 void InitBoard(char board[ROW][COL],int row,int col);
 void DisplayBoard(char board[ROW][COL], int row, int col);
 void PlayerMove(char board[ROW][COL], int row, int col);
 void ComputerMove(char board[ROW][COL],int row,int col);
 
-//Íæ¼ÒÓ®-'*'
-//µçÄÔÓ®-'#'
-//Æ½¾Ö-'Q'
-//¼ÌĞø-'C'
+//ç©å®¶èµ¢-'*'
+//ç”µè„‘èµ¢-'#'
+//í‹±ì• -'Q'
+//ì…¨å´-'C'
 
 char IsWin(char board[ROW][COL], int row, int col);
