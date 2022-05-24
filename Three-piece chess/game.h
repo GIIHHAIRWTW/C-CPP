@@ -15,7 +15,7 @@ void ComputerMove(char board[ROW][COL],int row,int col);
 
 //玩家赢-'*'
 //电脑赢-'#'
-//틱애-'Q'
-//셨崎-'C'
+//平局-'Q'
+//继续-'C'
 
 char IsWin(char board[ROW][COL], int row, int col);
