@@ -20,6 +20,6 @@ int main()
 	int count = 0;
 	scanf("%d", &a);
 	count = Count_one(a);
-	printf("¶ş½øÖÆ(²¹Âë)ÖĞÓĞ--%d--¸ö1", count);
+	printf("äºŒè¿›åˆ¶(è¡¥ç )ä¸­æœ‰--%d--ä¸ª1", count);
 	return 0;
 }
