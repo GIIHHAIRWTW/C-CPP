@@ -25,6 +25,6 @@ int main()
 	int ret = 0;
 	scanf("%d", &n);
 	ret = Fac1(n);                   //ret = Fac2(n);
-	printf("�׳�Ϊ:%d\n", ret);
+	printf("阶乘为:%d\n", ret);
 	return 0;
 }
