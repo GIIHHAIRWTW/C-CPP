@@ -7,12 +7,12 @@ int main()
 	scanf("%d%d", &a, &b);
 	i = a;
 	j = b;
-		do
+		while (r != 0)
 		{
 			r = a % b;
 			a = b;
 			b = r;
-		} while (r != 0);
+		} 
 		printf("%d和%d的最大公约数是:%d\n", i, j, a);
 		printf("最小公倍数是:%d", i * j / a);
 		return 0;
