@@ -3,18 +3,17 @@
 int main()
 {
 	int a, b, r = 1, i, j;
-	printf("ÇëÊäÈëÁ½¸öÕûÊı:");
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•´æ•°:");
 	scanf("%d%d", &a, &b);
 	i = a;
 	j = b;
-	while (r != 0)
-		do
+		while (r != 0)
 		{
 			r = a % b;
 			a = b;
 			b = r;
-		} while (r != 0);
-		printf("%dºÍ%dµÄ×î´ó¹«Ô¼ÊıÊÇ:%d\n", i, j, a);
-		printf("×îĞ¡¹«±¶ÊıÊÇ:%d", i * j / a);
+		} 
+		printf("%då’Œ%dçš„æœ€å¤§å…¬çº¦æ•°æ˜¯:%d\n", i, j, a);
+		printf("æœ€å°å…¬å€æ•°æ˜¯:%d", i * j / a);
 		return 0;
 }

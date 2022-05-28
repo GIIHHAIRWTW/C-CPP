@@ -15,7 +15,7 @@ int pow(int x, int y)
 int main()
 {
 	int num = 100, a, b, c;
-	printf("Ë®ÏÉ»¨ÊıÓĞ£º");
+	printf("æ°´ä»™èŠ±æ•°æœ‰:");
 	for (num = 100; num < 1000; num++)
 	{
 		a = num / 100;
