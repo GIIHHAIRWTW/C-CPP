@@ -17,8 +17,8 @@ void Print2(Stu* ps)
 }
 int main()
 {
-	Stu s1 = { "ÕÅÈý","B00040101" };
-	Print1(s1);
-	Print2(&s1);
+	Stu s = { "Ã•Ã…ÃˆÃ½","B00040101" };
+	Print1(s);
+	Print2(&s);
 	return 0;
 }
