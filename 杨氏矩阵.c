@@ -29,7 +29,7 @@ int main()
 	int y = 3;
 	int ret = FindNum(arr, k, &x, &y);
 	if (ret == 1)
-		printf("ÕÒµ½ÁË,ÏÂ±êÊÇ%d, %d",x,y);
+		printf("找到了,下标是%d, %d",x,y);
 	else
 		printf("找不到");
 	return 0;
