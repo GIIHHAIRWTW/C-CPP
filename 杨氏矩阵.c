@@ -29,8 +29,8 @@ int main()
 	int y = 3;
 	int ret = FindNum(arr, k, &x, &y);
 	if (ret == 1)
-		printf("ÕÒµ½ÁË,ÏÂ±êÊÇ%d, %d",x,y);
+		printf("æ‰¾åˆ°äº†,ä¸‹æ ‡æ˜¯%d, %d",x,y);
 	else
-		printf("ÕÒ²»µ½");
+		printf("æ‰¾ä¸åˆ°");
 	return 0;
 }
