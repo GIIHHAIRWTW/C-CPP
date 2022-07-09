@@ -7,7 +7,8 @@ int is_left_move(char* str1, char* str2)
 	int len2 = strlen(str2);
 	if (len1 != len2)
 		return 0;
-	char* ret = strncat(str1, str1, len1);
+	strncat(str1,str1,len1);
+	char* ret = strstr(str1, str2);
 	if (ret == NULL)
 		return 0;
 	else
