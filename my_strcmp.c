@@ -4,7 +4,7 @@
 #include<assert.h>
 //int strcmp(const char* str1, const char* str2);
 /*
-CÓïÑÔ±ê×¼
+Cè¯­è¨€è§„å®š
 str1>str2 ---> >0
 str1==str2 ---> =0
 str1<str2 ---> <0
